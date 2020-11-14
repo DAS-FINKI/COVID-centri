@@ -1,0 +1,2 @@
+osmfilter centar.osm --keep="route=bus , amenity=hospital , amenity=doctors , amenity=clinic , highway=* , route=bus" | 
+osmconvert - --all-to-nodes --csv="@id @lon @lat name" --csv-headline --csv-separator="," -o="finalnoCENTAR.csv"
