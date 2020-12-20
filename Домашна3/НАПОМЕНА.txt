@@ -1,0 +1,4 @@
+Доколку се извршува апликацијата директно од visual studio , поради bug во visual мора најпрвин во
+Package Manager Console да се изврши следната команда:
+
+Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
