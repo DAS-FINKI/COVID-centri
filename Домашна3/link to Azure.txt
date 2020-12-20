@@ -1,1 +1,1 @@
-https://appnavigacija.azurewebsites.net/Account/Login.aspx
+https://appnavigacija.azurewebsites.net/Account/Login
