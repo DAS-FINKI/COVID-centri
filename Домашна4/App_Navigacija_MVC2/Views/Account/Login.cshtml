@@ -1,0 +1,118 @@
+﻿@model App_Navigacija_MVC2.ViewModels.LoginVM
+
+@{
+    ViewBag.Title = "Log in";
+}
+
+@{
+    if (Session["jazik"] != null)
+    {
+        Session["jazik"].ToString();
+    }
+}
+<div class="row">
+    <div class="col-md-8">
+        <label>Ве молиме најавете се / регистрирајте се за да продолжeте</label>
+        <hr />
+        <section id="loginForm">
+            @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Email)
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Password)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <div class="checkbox">
+                            @Html.CheckBoxFor(m => m.RememberMe)
+
+                            @{
+                string chkTxt = "";
+                if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
+                {
+                    chkTxt = "Запомни?";
+                }
+                else
+                {
+                    chkTxt = "Remember Me";
+                }
+                            }
+
+                            <label>@chkTxt</label>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        @{
+                            string logTxt = "";
+                            if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
+                            {
+                                logTxt = "Најави се";
+                            }
+                            else
+                            {
+                                logTxt = "Log in";
+                            }
+                        }
+                        <input type="submit" value="@logTxt" class="btn btn-default" />
+                    </div>
+                </div>
+                <p>
+                    @{
+                string regTxt = "";
+                if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
+                {
+                    regTxt = "Регистрирај се";
+                }
+                else
+                {
+                    regTxt = "Register";
+                }
+                    }
+
+                    @Html.ActionLink(regTxt, "Register").
+                </p>
+            }
+        </section>
+    </div>
+    @*<div class="col-md-4">
+            <section id="socialLoginForm">
+                @Html.Partial("_ExternalLoginsListPartial", new { Action = "ExternalLogin", ReturnUrl = ViewBag.ReturnUrl })
+            </section>
+        </div>*@
+</div>
+<hr />
+<div class="row">
+    <div class="text-center">
+        <a href="@Url.Action("Login", "Account", new { lang = "mkd"})">
+            <img alt="Qries" src="~/Content/images/mkd.png" width="45" height="25">
+        </a>
+        <a href="@Url.Action("Login", "Account", new { lang = "ang"})">
+            <img alt="Qries" src="~/Content/images/ang.png" width="45" height="25">
+        </a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function change_lang(lang) {
+        Session["jazik"] = lang;
+        window.location.href = '@Url.Action("Login", "Account")';
+    }
+</script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
