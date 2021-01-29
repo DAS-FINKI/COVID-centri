@@ -1,32 +1,34 @@
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\App_Navigacija_MVC2.dll.config
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\App_Navigacija_MVC2.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\App_Navigacija_MVC2.pdb
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\Antlr3.Runtime.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\EntityFramework.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\EntityFramework.SqlServer.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\Microsoft.Web.Infrastructure.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\Newtonsoft.Json.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Helpers.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Mvc.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Optimization.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Razor.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.WebPages.Deployment.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.WebPages.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.WebPages.Razor.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\WebGrease.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\EntityFramework.xml
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\EntityFramework.SqlServer.xml
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Helpers.xml
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Mvc.xml
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Optimization.xml
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Razor.xml
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.WebPages.xml
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.WebPages.Deployment.xml
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.WebPages.Razor.xml
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\Newtonsoft.Json.xml
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\Antlr3.Runtime.pdb
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\obj\Debug\App_Navigacija_MVC2.csprojResolveAssemblyReference.cache
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\obj\Debug\App_Navigacija_MVC2.dll
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\obj\Debug\App_Navigacija_MVC2.pdb
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\obj\Debug\App_Navigacija_MVC2.Migrations.UserEntity.resources
-D:\Personal\freeLancing\Nevena zlatkovska\App_Navigacija_MVC2\App_Navigacija_MVC2\obj\Debug\App_Navigacija_MVC2.csproj.GenerateResource.Cache
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\App_Navigacija_MVC2.dll.config
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\App_Navigacija_MVC2.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\App_Navigacija_MVC2.pdb
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\Antlr3.Runtime.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\EntityFramework.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\EntityFramework.SqlServer.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\Newtonsoft.Json.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Helpers.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Mvc.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Optimization.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Razor.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.WebPages.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.WebPages.Razor.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\WebGrease.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\EntityFramework.xml
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\EntityFramework.SqlServer.xml
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Helpers.xml
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Mvc.xml
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Optimization.xml
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.Razor.xml
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.WebPages.xml
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\System.Web.WebPages.Razor.xml
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\Newtonsoft.Json.xml
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\bin\Antlr3.Runtime.pdb
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\obj\Debug\App_Navigacija_MVC2.csprojAssemblyReference.cache
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\obj\Debug\App_Navigacija_MVC2.Migrations.UserEntity.resources
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\obj\Debug\App_Navigacija_MVC2.csproj.GenerateResource.cache
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\obj\Debug\App_Navigacija_MVC2.csproj.CoreCompileInputs.cache
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\obj\Debug\App_Navigacija_MVC2.csproj.CopyComplete
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\obj\Debug\App_Navigacija_MVC2.dll
+C:\Users\neven\OneDrive\Desktop\App_Navigacija_MVC2\App_Navigacija_MVC2\App_Navigacija_MVC2\obj\Debug\App_Navigacija_MVC2.pdb
