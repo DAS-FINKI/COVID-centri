@@ -19,7 +19,7 @@
             string bckTxt = "";
             if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
             {
-                bckTxt = "назад";
+                bckTxt = "Назад";
             }
             else
             {
@@ -38,7 +38,7 @@
         <br />
     </div>
     <div class="col-sm-12" style="text-align: center; padding-top:50px;">        
-        @Html.DropDownList("centers", (IEnumerable<SelectListItem>)ViewBag.Centers, new {id="ddCenters", @class = "form-control", style = "margin:auto; text-align: center; background-color: lightblue; width:280px; height:60px; font-size:22px" });
+        @Html.DropDownList("centers", (IEnumerable<SelectListItem>)ViewBag.Centers, new {id="ddCenters", @class = "form-control", style = "margin:auto; text-align: center; background-color: lightblue; width:280px; height:60px; font-size:22px" })
     </div>
     <div class="col-sm-12" style="text-align: center; margin-top:15px;margin-bottom:20px;">
         @{

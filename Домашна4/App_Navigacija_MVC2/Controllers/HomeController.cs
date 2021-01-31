@@ -41,7 +41,7 @@ namespace App_Navigacija_MVC.Controllers
         {
             ViewBag.Locations = getLocationsList();
             ViewBag.SelectedCenter = SelectedText;
-            if (!string.IsNullOrEmpty(Selectedvalue)) // in case of null it will throw exception.
+            if (!string.IsNullOrEmpty(Selectedvalue))
             {
                 string[] coords = Selectedvalue.Split(',');
                 Session["lat"] = coords[0];
@@ -53,7 +53,7 @@ namespace App_Navigacija_MVC.Controllers
         }
         public ActionResult CalculateDistance(string SelectedLocation)
         {
-            Session["SelectedLocation"] = SelectedLocation; // will be used to set selected value of location drop down to maintain state
+            Session["SelectedLocation"] = SelectedLocation;
             ViewBag.Locations = getLocationsList(SelectedLocation);
 
             string[] coords = SelectedLocation.Split(',');

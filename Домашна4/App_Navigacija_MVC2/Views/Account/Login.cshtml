@@ -12,7 +12,18 @@
 }
 <div class="row">
     <div class="col-md-8">
-        <label>Ве молиме најавете се / регистрирајте се за да продолжeте</label>
+        @{
+            string lblTxt = "";
+            if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
+            {
+                lblTxt = "Ве молиме најавете се / регистрирајте се за да продолжeте";
+            }
+            else
+            {
+                lblTxt = "Please log in / register to continue";
+            }
+            <label>@lblTxt</label>
+        }
         <hr />
         <section id="loginForm">
             @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
@@ -39,15 +50,15 @@
                             @Html.CheckBoxFor(m => m.RememberMe)
 
                             @{
-                string chkTxt = "";
-                if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
-                {
-                    chkTxt = "Запомни?";
-                }
-                else
-                {
-                    chkTxt = "Remember Me";
-                }
+                                string chkTxt = "";
+                                if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
+                                {
+                                    chkTxt = "Запомни?";
+                                }
+                                else
+                                {
+                                    chkTxt = "Remember Me";
+                                }
                             }
 
                             <label>@chkTxt</label>
@@ -73,15 +84,15 @@
                 </div>
                 <p>
                     @{
-                string regTxt = "";
-                if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
-                {
-                    regTxt = "Регистрирај се";
-                }
-                else
-                {
-                    regTxt = "Register";
-                }
+                        string regTxt = "";
+                        if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
+                        {
+                            regTxt = "Регистрирај се";
+                        }
+                        else
+                        {
+                            regTxt = "Register";
+                        }
                     }
 
                     @Html.ActionLink(regTxt, "Register").
@@ -89,11 +100,7 @@
             }
         </section>
     </div>
-    @*<div class="col-md-4">
-            <section id="socialLoginForm">
-                @Html.Partial("_ExternalLoginsListPartial", new { Action = "ExternalLogin", ReturnUrl = ViewBag.ReturnUrl })
-            </section>
-        </div>*@
+
 </div>
 <hr />
 <div class="row">

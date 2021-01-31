@@ -1,6 +1,13 @@
 ﻿
 @{
-    ViewBag.Title = "Votr";
+    ViewBag.Title = "Vtor";
+}
+
+@{
+    if (Session["jazik"] != null)
+    {
+        Session["jazik"].ToString();
+    }
 }
 <div class="row">
     <div class="col-sm-12">
@@ -37,13 +44,46 @@
 <div class="row" style="margin-top:150px">
     <div class="col-sm-12 text-center">
         <div style="font-size:50px">
-            <label>КОВИД-19</label>
+            @{
+                string kovTxt = "";
+                if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
+                {
+                    kovTxt = "КОВИД-19";
+                }
+                else
+                {
+                    kovTxt = "COVID-19";
+                }
+            }
+            <label>@kovTxt</label>
         </div>
         <div style="font-size:30px">
-            <label>ТЕСТ ЦЕНТРИ</label>
+            @{
+                string testTxt = "";
+                if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
+                {
+                    testTxt = "ТЕСТ ЦЕНТРИ";
+                }
+                else
+                {
+                    testTxt = "TEST CENTERS";
+                }
+            }
+            <label>@testTxt</label>
         </div>
         <div style="font-size:25px">
-            <label>За пребарување на локации на тест центрите притиснете овде</label>
+            @{
+                string btnTxt = "";
+                if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
+                {
+                    btnTxt = "За пребарување на локации на тест центрите притиснете овде";
+                }
+                else
+                {
+                    btnTxt = "To search test center locations click here";
+                }
+            }
+            <label>@btnTxt</label>
         </div>
         <div>
             <img src="~/content/images/strelka.png" alt="strelka" width="60" />
@@ -51,14 +91,14 @@
         <div>
             @{
                 string srcTxt = "";
-                    if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
-                    {
-                        srcTxt = "Пребарај";
-                    }
-                    else
-                    {
-                        srcTxt = "Search";
-                    }
+                if (Session["jazik"] == null || Session["jazik"].ToString() == "mkd")
+                {
+                    srcTxt = "Пребарај";
+                }
+                else
+                {
+                    srcTxt = "Search";
+                }
             }
             <button class="btn" style="background-color:lightblue" onclick="location.href='@Url.Action("Tret","Home")'">@srcTxt</button>
         </div>
