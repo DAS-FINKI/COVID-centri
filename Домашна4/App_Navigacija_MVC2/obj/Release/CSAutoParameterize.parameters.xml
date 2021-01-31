@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="darko-Web.config Connection String" description="darko Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:app-navigacija-mvc2dbserver.database.windows.net,1433;Initial Catalog=App_Navigacija_MVC2_db2;User Id=Darko@app-navigacija-mvc2dbserver;Password=D12345678." tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Durko\\Documents\\GitHub\\COVID-centri\\Домашна4\\App_Navigacija_MVC2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='darko']/@connectionString" />
-  </parameter>
-  <parameter name="App_Navigacija_MVC2.Models.App_App_NavigacijaContext-Web.config Connection String" description="App_Navigacija_MVC2.Models.App_App_NavigacijaContext Connection String used in web.config by the application to access the database." defaultValue="App_Navigacija_MVC2.Models.App_App_NavigacijaContext_ConnectionString" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Durko\\Documents\\GitHub\\COVID-centri\\Домашна4\\App_Navigacija_MVC2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='App_Navigacija_MVC2.Models.App_App_NavigacijaContext']/@connectionString" />
-  </parameter>
-</parameters>
