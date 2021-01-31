@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<sitemanifest>
-  <DbDacFx path="C:\Users\Durko\Documents\GitHub\COVID-centri\Домашна4\App_Navigacija_MVC2\obj\Release\AutoScripts\darko_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
-  <IisApp path="C:\Users\Durko\Documents\GitHub\COVID-centri\Домашна4\App_Navigacija_MVC2\obj\Release\Package\PackageTmp" managedRuntimeVersion="v4.0" />
-  <setAcl path="C:\Users\Durko\Documents\GitHub\COVID-centri\Домашна4\App_Navigacija_MVC2\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="C:\Users\Durko\Documents\GitHub\COVID-centri\Домашна4\App_Navigacija_MVC2\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
-</sitemanifest>
